@@ -9,6 +9,13 @@
 	],
 "creatorBuild": "28905",
 "files": {
+	"/.gitattributes": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/.gitattributes",
+		"oF": 0
+		},
 	"/bronzeMedal.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -84,6 +91,16 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
+		},
+	"/wreath.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/wreath.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		}
 	},
 "hooks": [
