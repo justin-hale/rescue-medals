@@ -1,0 +1,102 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100vh; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial";
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5); }
+
+h2 {
+  font-size: 3em; }
+
+h3 {
+  font-size: 2em; }
+
+.background {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -100; }
+
+.background-shade {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: -moz-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.5) 100%);
+  /* FF3.6-15 */
+  background: -webkit-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.5) 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.5) 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#000000',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */ }
+
+.background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+.awards {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  align-items: center; }
+
+.medals {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly; }
+  .medals .medal {
+    text-align: center; }
+    .medals .medal.gold h2 {
+      font-size: 4em; }
+    .medals .medal.gold h3 {
+      font-size: 3em; }
+    .medals .medal-img {
+      height: 30vh; }
+
+.wreaths {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex: auto;
+  align-items: center; }
+  .wreaths .wreath-img {
+    height: 30vh; }
+  .wreaths .wreath-text {
+    padding-left: 5em;
+    color: #8eaf28; }
+    .wreaths .wreath-text h2 {
+      font-size: 4em; }
+    .wreaths .wreath-text h3 {
+      font-size: 3em; }
+
+.text-gold {
+  color: #f2c200; }
+
+.text-silver {
+  color: #cac7d5; }
+
+.text-bronze {
+  color: #d6350a; }
+
+@media (min-aspect-ratio: 16 / 9) {
+  .background-video {
+    width: 100%;
+    height: auto; } }
+
+@media (max-aspect-ratio: 16 / 9) {
+  .background-video {
+    width: auto;
+    height: 100%; } }

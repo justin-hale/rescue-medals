@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        link(rel="stylesheet", href="style.css")
+        title Document
+    body
+        .background
+            video.background-video(autoplay='', muted='', loop='')
+                source(src='sparkleLight.mov', type='video/mp4')
+            .background-shade
+        .awards
+            .medals
+                .medal.bronze
+                    img.medal-img(src="bronzeMedal.svg")
+                    h2.text-bronze John Doe
+                    h3.text-bronze 28 Rescues
+                .medal.gold
+                    img.medal-img(src="goldMedal.svg")
+                    h2.text-gold Jane Doe
+                    h3.text-gold 36 Rescues
+                .medal.silver
+                    img.medal-img(src="silverMedal.svg")
+                    h2.text-silver Jack Doe
+                    h3.text-silver 32 Rescues
+            .wreaths
+                .wreath
+                    img.wreath-img(src="wreath.svg")
+                .wreath-text
+                    h3 Top Team
+                    h2 Team John
